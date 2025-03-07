@@ -21,9 +21,9 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t your-dockerhub-username/nginx-html:latest .
+          docker build -t nandu93/nginx-html:latest .
 
       - name: Push Docker Image to Docker Hub
         run: |
-          docker push your-dockerhub-username/nginx-html:latest
+          docker push nandu93/nginx-html:latest
 
